@@ -1,8 +1,8 @@
 // 더미 값입니다. 실제 내용은 나중에 교체하세요. (추후 DB로 이동 예정)
 export const profile = {
-  name: "김남준",
-  bio: "정보보호전문가",
-  imageUrl: "/avatar-dummy.svg" as string | undefined,
+  name: "김개발",
+  bio: "풀스택 개발자 | 요즘에는 AI 개발에 관심이 많아요",
+  imageUrl: "/unnamed.jpg" as string | undefined,
 };
 
 export const links = [

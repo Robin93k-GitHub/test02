@@ -3,11 +3,15 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 body {
-  background: #f4f6f4;
-  color: #1a2e22;
+  font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont,
+    "Apple SD Gothic Neo", "Noto Sans KR", "Segoe UI", system-ui, sans-serif;
+  color: #3b2f2a;
+  background: linear-gradient(160deg, #fffaf0 0%, #fdeedd 50%, #fbd9c3 100%);
+  background-attachment: fixed;
 }
 
 .dark body {
-  background: #0f1512;
-  color: #e6efe9;
+  color: #f3e9e1;
+  background: linear-gradient(160deg, #1c1714 0%, #261c17 55%, #33231b 100%);
+  background-attachment: fixed;
 }
